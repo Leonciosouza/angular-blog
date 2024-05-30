@@ -2,7 +2,7 @@
  
     <div class="big-card__photo">
         <img 
-            src="https://www.postergully.com/cdn/shop/products/PG57_Copy_12721807-4ae9-45d8-b988-4c025d38897c.jpg?v=1578633816"   
+            src="{{ photoCover }}"   
             alt=""
             height="200px"
             width="400px" 
@@ -12,13 +12,13 @@
     </div>
    
     <div class="big-card__title">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
 
     <div class="big-card__description">
         <p>
             <a href="#">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et rutrum nisl, vitae fermentum arcu. Duis felis tortor, eleifend ut felis id, mollis pretium dolor. Quisque quis porttitor risus, vitae aliquet tellus. Proin sem magna, ullamcorper id ex non, imperdiet tempus ligula. Donec ut ligula non justo ultricies bibendum.
+               {{ cardDescription }}     
             </a> 
         </p>
     </div>
